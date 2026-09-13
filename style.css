@@ -57,13 +57,16 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   /* paper grain + faint rule lines */
-  background-image: radial-gradient(
+  background-image:
+    radial-gradient(
       circle at 1px 1px,
       rgba(34, 26, 16, 0.05) 1px,
       transparent 0
     ),
     linear-gradient(to bottom, rgba(0, 0, 0, 0.018) 1px, transparent 1px);
-  background-size: 3px 3px, 100% 34px;
+  background-size:
+    3px 3px,
+    100% 34px;
 }
 
 a {
@@ -171,7 +174,9 @@ a {
   color: var(--ink-2);
   padding-bottom: 2px;
   border-bottom: 1px solid transparent;
-  transition: color 0.2s, border-color 0.2s;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
 }
 .site-nav a:hover {
   color: var(--ink);
@@ -188,7 +193,10 @@ a {
   padding: 5px 11px;
   border-radius: 100px;
   cursor: pointer;
-  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s,
+    background 0.2s;
 }
 .chip:hover {
   border-color: var(--ink-3);
@@ -334,7 +342,9 @@ a {
   border-radius: 50%;
   background: var(--paper);
   border: 1px solid var(--ink-3);
-  transition: background 0.25s, border-color 0.25s;
+  transition:
+    background 0.25s,
+    border-color 0.25s;
 }
 .entry:not(.is-dim) .page:hover::before {
   background: var(--accent);
@@ -405,7 +415,9 @@ a {
 /* marginalia: a sticky note pinned in the margin */
 .margin {
   padding-top: 96px;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 .margin p {
   font-family: var(--f-hand);
@@ -420,7 +432,8 @@ a {
   border-radius: 1px;
   position: relative;
   transform: rotate(1.3deg);
-  box-shadow: 0 14px 24px -14px rgba(34, 26, 16, 0.42),
+  box-shadow:
+    0 14px 24px -14px rgba(34, 26, 16, 0.42),
     0 2px 5px rgba(34, 26, 16, 0.14);
 }
 .margin p::before {
@@ -636,7 +649,9 @@ body.margins-off .margin {
   right: 32px;
   color: var(--ink-3);
   opacity: 0.5;
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
 }
 .project-card.is-hidden {
   display: none;
@@ -742,7 +757,9 @@ body.margins-off .margin {
   text-decoration: none;
   border-bottom: 1px solid var(--rule);
   padding-bottom: 3px;
-  transition: border-color 0.2s, color 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
 }
 .contact-list a:hover {
   color: var(--accent);
@@ -805,7 +822,9 @@ body.margins-off .margin {
   padding: 11px 22px;
   border-radius: 100px;
   cursor: pointer;
-  transition: background 0.2s, border-color 0.2s;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
 }
 .send:hover {
   background: var(--accent);
@@ -1601,7 +1620,9 @@ footer {
   padding: 11px 22px;
   border-radius: 100px;
   color: var(--ink-2);
-  transition: border-color 0.2s, color 0.2s;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
 }
 .cs-close-links a:hover {
   border-color: var(--accent);
@@ -1621,6 +1642,22 @@ footer {
   .cs-nav ol {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
   }
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
 }
 
 /* ============================================================
@@ -1633,7 +1670,9 @@ footer {
 .reveal.seen {
   opacity: 1;
   transform: none;
-  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.2, 0.7, 0.3, 1);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.2, 0.7, 0.3, 1);
 }
 .entry.is-dim.reveal.seen {
   opacity: 0.2;
