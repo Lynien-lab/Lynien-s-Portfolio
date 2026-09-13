@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lynien Lin — A working journal</title>
+    <meta
+      name="description"
+      content="Lynien Lin. Product and research, based in the Netherlands. A working journal of the projects, studies, and film sets that got me here."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="margins-on">
+    <header class="masthead">
+      <div class="wrap masthead-inner">
+        <a class="brand" href="#top"
+          >Lynien Lin <span> a working journal</span></a
+        >
+
+        <nav class="site-nav" aria-label="Sections">
+          <a href="#work">Projects</a>
+          <a href="#About">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- ======================= COVER ======================= -->
+      <section class="cover">
+        <div class="wrap cover-grid">
+          <div class="cover-side util">
+            <div><b>Based in</b>NL</div>
+            <div><b>Working in</b>Product &amp; research</div>
+            <div><b>Reading in</b>EN · 中文 · NL</div>
+          </div>
+
+          <div>
+            <h1>Lynien Lin</h1>
+            <p class="role">Product · Research · Change</p>
+
+            <p class="cover-note">
+              I started my career telling stories through film, then brought
+              that same instinct for understanding the person on the other side
+              of the screen into UX. The scene is a product now, and the
+              audience is whoever has to use it everyday.
+            </p>
+            <p class="cover-lede">
+              This is the working journal: recent case studies first, then the
+              roles and study that got me here.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= PROJECTS ======================= -->
+      <section class="projects reveal" id="work">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="util">Projects</span>
+            <div>
+              <h2>Recent case studies</h2>
+            </div>
+          </div>
+
+          <div class="legend-grid">
+            <div></div>
+            <div>
+              <div class="controls" style="margin-bottom: 0">
+                <button
+                  class="chip project-filter"
+                  data-category="all"
+                  aria-pressed="true"
+                >
+                  All
+                </button>
+                <button
+                  class="chip project-filter"
+                  data-category="UX Design"
+                  aria-pressed="false"
+                >
+                  UX Design
+                </button>
+                <button
+                  class="chip project-filter"
+                  data-category="Craft"
+                  aria-pressed="false"
+                >
+                  Craft
+                </button>
+              </div>
+
+              <div class="projects-grid" id="projectsGrid" aria-live="polite">
+                <!-- rendered from the Projects CMS sheet, journal.js -->
+              </div>
+              <p
+                class="projects-empty"
+                id="projectsEmpty"
+                style="display: none"
+              >
+                Nothing filed under this thread yet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======================= WHAT TRANSFERS ======================= -->
+      <section class="strengths" id="About">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="util">About</span>
+            <div>
+              <h2>What transfers</h2>
+            </div>
+          </div>
+
+          <div class="legend-grid">
+            <div></div>
+            <div>
+              <p class="strengths-lede">
+                Film set, cosmetics startup, university lab, semiconductor
+                company and vintage products company . On paper those are
+                different jobs. In practice I have been doing the same three
+                things the whole time: the vocabulary changes, the software
+                changes, the underlying work does not. Tools are the fastest
+                thing to learn and the fastest thing to go out of date. These
+                are what I actually carry between rooms.
+              </p>
+
+              <ol class="strengths-list">
+                <li>
+                  <span class="n">01</span>
+                  <h3>Sitting in someone else's seat</h3>
+                  <p>
+                    Scene design taught me to inhabit a character's position
+                    before deciding how their world should look. That is the
+                    same move as a user interview, and the same move as reading
+                    a room of stakeholders who each hold one piece of the
+                    picture. You work out what someone needs before you work out
+                    what to build.
+                  </p>
+                  <span class="carry"
+                    >Eleven film crews · patient interviews · stakeholders eight
+                    hours ahead</span
+                  >
+                </li>
+
+                <li>
+                  <span class="n">02</span>
+                  <h3>Visualization &amp; storytelling</h3>
+                  <p>
+                    Whether it is a frame, a prototype, or an interface, the job
+                    is the same: put the thing where the eye goes first. You
+                    never get to stand next to someone and explain your intent —
+                    either it carries or it does not. Five years of scene design
+                    taught me to compose for the person in the seat, and the
+                    habit did not stay in the cinema. A cluttered screen and a
+                    badly framed shot fail in exactly the same way, which is
+                    when the person on the other end has to work too hard to
+                    find the point.
+                  </p>
+                  <span class="carry"
+                    >Storyboards and scene composition · Figma prototypes ·
+                    documentation teams actually adopted</span
+                  >
+                </li>
+
+                <li>
+                  <span class="n">03</span>
+                  <h3>Turning messy input into a decision</h3>
+                  <p>
+                    Qualitative research is not the soft option. You hear the
+                    same sentence from four different people and suddenly you
+                    are holding a decision rather than an opinion. The craft is
+                    in the compression: taking interviews, literature, and
+                    numbers that disagree with each other, and handing someone
+                    something they can actually act on.
+                  </p>
+                  <span class="carry"
+                    >Thematic analysis · usability testing · KPIs reported
+                    whether or not they flattered us</span
+                  >
+                </li>
+              </ol>
+
+              <p class="strengths-close">
+                Which is why I am not especially restricted to job titles. Give
+                me a problem where somebody has to understand a person, decide
+                something on evidence, and then make it clear to a room, and I
+                have done that in four industries and three languages.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= LEDGER ======================= -->
+      <div class="wrap ledger" id="experience">
+        <!-- ENTRY 01 -->
+        <article class="entry reveal" data-threads="coordination research">
+          <div class="stamp util">
+            <span class="yr">2025 — 26</span>
+            <span class="org">ASML</span>
+            <span class="org">Change Management</span>
+            <span class="tags">Coordination · Research</span>
+          </div>
+
+          <div class="page">
+            <h2>Twelve plates in the air, across two time zones</h2>
+            <p>
+              ASML runs on machines that take years to build and rooms full of
+              people who each hold one piece of the picture. I sat in the middle
+              of several projects at once, and the job, mostly, was making sure
+              nobody lost the thread. Plans, milestones, and the open questions
+              that everyone could see but nobody wanted to name out loud.
+            </p>
+            <p>
+              The one I am proudest of is Korea. I scoped it, ran it, and
+              delivered it end to end on my own, with stakeholders eight hours
+              ahead of me. That project taught me to flag a risk while it is
+              still boring, and to rewrite a plan without treating the rewrite
+              as a failure.
+            </p>
+            <p>
+              I also joined the UX Competence group and wrote the documentation
+              and user guides that helped teams across the organization actually
+              adopt the new way of working. It turns out a surprising amount of
+              change management is just writing clearly.
+            </p>
+            <p class="pull">
+              A decision meeting goes well or badly depending on what you handed
+              people three days earlier.
+            </p>
+            <ul class="receipts">
+              <li>
+                Ran one international project independently, scoping through
+                delivery
+              </li>
+              <li>
+                Facilitated cross-departmental workshops and knowledge-sharing
+                sessions
+              </li>
+              <li>
+                Turned stakeholder discussion into owned actions with named
+                follow-through
+              </li>
+            </ul>
+          </div>
+
+          <aside class="margin">
+            <p>
+              Korea taught me more than any seminar did. Mostly that "send it
+              and hope" is not a stakeholder strategy.
+            </p>
+          </aside>
+        </article>
+
+        <!-- ENTRY 02 -->
+        <article class="entry reveal" data-threads="research craft">
+          <div class="stamp util">
+            <span class="yr">2025 — 26</span>
+            <span class="org">Tilburg University</span>
+            <span class="org">MSc Communication &amp; Information Science</span>
+            <span class="tags">Research · Craft</span>
+          </div>
+
+          <div class="page">
+            <h2>A heart app, a chatbot, and a client who counted</h2>
+            <p>
+              My master's was the year I stopped guessing. I designed and
+              prototyped a health app for cardiovascular patients in Figma and
+              ran the full cycle, from user research through content design to
+              usability testing, then ran it again, because the first version
+              was wrong in ways only a real patient could show me.
+            </p>
+            <p>
+              Alongside it I studied how people actually talk to chatbots rather
+              than how we assume they do, and turned those patterns into
+              interaction guidelines a team could build from. I also ran a
+              data-driven campaign for a government client with real KPIs
+              attached, which is an excellent cure for falling in love with your
+              own ideas.
+            </p>
+            <ul class="receipts">
+              <li>
+                <a href="case-study-medical-app.html"
+                  >Full case study: My HyprT medical app →</a
+                >
+              </li>
+              <li>
+                <a href="case-study-chatbot.html"
+                  >Full case study: chatbot dialogue design →</a
+                >
+              </li>
+              <li>
+                Campaign for a government client, with KPIs set and tracked
+              </li>
+            </ul>
+          </div>
+
+          <aside class="margin">
+            <p>
+              Round three of the prototype was the one where testers stopped
+              apologizing for not understanding it. That is the real result.
+            </p>
+          </aside>
+        </article>
+
+        <!-- ENTRY 03 -->
+        <article class="entry reveal" data-threads="research coordination">
+          <div class="stamp util">
+            <span class="yr">2023 — 24</span>
+            <span class="org">NES Cosmetics</span>
+            <span class="org">Marketing Strategist</span>
+            <span class="tags">Research · Coordination</span>
+          </div>
+
+          <div class="page">
+            <h2>Startup speed, and the first time research changed a plan</h2>
+            <p>
+              Small team, fast decisions, everything happening at once. I took
+              multi-platform campaigns from brief to delivery and kept several
+              workstreams moving without letting any of them quietly stall,
+              which in a startup is most of the job.
+            </p>
+            <p>
+              I also sat down with actual customers for long interviews. That
+              was where I understood that qualitative research is not the soft
+              option. You hear the same sentence from four different people and
+              suddenly you are holding a decision, not an opinion. Then I
+              tracked what happened after we shipped and reported it back,
+              whether or not it flattered us.
+            </p>
+            <ul class="receipts">
+              <li>
+                Campaigns run brief to delivery under concurrent deadlines
+              </li>
+              <li>
+                In-depth consumer interviews turned into structured
+                recommendations
+              </li>
+              <li>Performance tracking and reporting for stakeholders</li>
+            </ul>
+          </div>
+
+          <aside class="margin">
+            <p>
+              First time I brought a finding to a founder and watched the plan
+              change because of it. Fairly hooked after that.
+            </p>
+          </aside>
+        </article>
+
+        <!-- ENTRY 04 -->
+        <article class="entry reveal" data-threads="craft">
+          <div class="stamp util">
+            <span class="yr">2018 — 23</span>
+            <span class="org">National Chengchi University</span>
+            <span class="org">BA Communication, Taipei</span>
+            <span class="tags">Craft</span>
+          </div>
+
+          <div class="page">
+            <h2>Eleven short films, and where to put the camera</h2>
+            <p>
+              I specialized in visual storytelling and scene design. Over five
+              years I worked on more than eleven short films with international
+              crews, which in practice meant long nights, borrowed equipment,
+              and a great deal of arguing about where to put the camera.
+            </p>
+            <p>
+              What stayed with me is the discipline of sitting in the audience's
+              seat. You never get to stand next to someone and explain your
+              intent. Either the frame carries it or it does not. I have not yet
+              found a product question where that stops being true.
+            </p>
+            <p class="pull">
+              You do not get to explain the frame to the person watching it.
+            </p>
+            <ul class="receipts">
+              <li>11+ short films with international, multilingual crews</li>
+              <li>
+                Visual composition, scene design, and audience-first thinking
+              </li>
+            </ul>
+          </div>
+
+          <aside class="margin">
+            <p>
+              Four languages on one set, and still the same problem as any
+              product team: everyone is certain they said the thing clearly.
+            </p>
+          </aside>
+        </article>
+      </div>
+
+      <!-- ======================= LEGEND ======================= -->
+      <section class="legend">
+        <div class="wrap">
+          <div class="section-head">
+            <span class="util">Legend</span>
+            <h2>What I reach for</h2>
+          </div>
+
+          <div class="legend-grid">
+            <div></div>
+            <div class="legend-list">
+              <div>
+                <h3>Research</h3>
+                <p>
+                  User interviews, usability testing, survey design, competitor
+                  analysis, Qualtrics, Jamovi, Python for analysis.
+                </p>
+              </div>
+              <div>
+                <h3>Product &amp; coordination</h3>
+                <p>
+                  Requirements definition, milestone tracking, risk flagging,
+                  stakeholder alignment, workshop facilitation, JIRA,
+                  Confluence.
+                </p>
+              </div>
+              <div>
+                <h3>Data &amp; reporting</h3>
+                <p>
+                  Power BI, Excel, KPI definition, SharePoint, decision-ready
+                  documentation and reporting.
+                </p>
+              </div>
+              <div>
+                <h3>Design &amp; content</h3>
+                <p>
+                  Figma prototyping, content strategy, information design,
+                  visual storytelling, scene composition.
+                </p>
+              </div>
+              <div>
+                <h3>Languages</h3>
+                <p>
+                  Mandarin Chinese, native. English, fluent. Dutch, basic and
+                  improving.
+                </p>
+              </div>
+              <div>
+                <h3>Ways of working</h3>
+                <p>
+                  Evidence before opinion, decisions written down, risks named
+                  early, and a plan that is allowed to change.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================= CLOSING ======================= -->
+      <section class="closing" id="contact">
+        <div class="wrap closing-grid">
+          <span class="util" style="color: var(--ink-3)">Latest entry</span>
+
+          <div class="closing-body">
+            <div>
+              <h2>Currently</h2>
+              <p>
+                Looking for a product role where the research does not stop at
+                the kickoff deck, ideally somewhere technical enough that the
+                problems are genuinely hard.
+              </p>
+              <p>
+                If you are hiring, or you just want to argue about where to put
+                the camera, the door is open.
+              </p>
+              <ul class="contact-list">
+                <li>
+                  <a href="mailto:yjulin2407@gmail.com">yjulin2407@gmail.com</a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+                    target="_blank"
+                    rel="noopener"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li>
+                  <a href="Lynien_Lin_CV.pdf" download>Download the CV (PDF)</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2>Leave a note</h2>
+              <p>
+                Write in the margin of my journal. It comes straight to my
+                inbox.
+              </p>
+
+              <form class="note-form" id="noteForm">
+                <div class="field">
+                  <label for="nf-name">Your name</label>
+                  <input
+                    type="text"
+                    id="nf-name"
+                    name="name"
+                    required
+                    autocomplete="name"
+                  />
+                </div>
+                <div class="field">
+                  <label for="nf-email">Email</label>
+                  <input
+                    type="email"
+                    id="nf-email"
+                    name="email"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
+                <div class="field">
+                  <label for="nf-msg">Note</label>
+                  <textarea id="nf-msg" name="message" required></textarea>
+                </div>
+                <button class="send" type="submit">Send the note</button>
+                <p class="form-status" id="formStatus" role="status"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer-inner util">
+        <span>Lynien Lin · Tilburg, NL</span>
+        <span>Kept by hand, updated when something changes</span>
+      </div>
+    </footer>
+
+    <script src="journal.js" defer></script>
+  </body>
+</html>

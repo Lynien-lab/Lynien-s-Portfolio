@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thesis: Chatbot Dialogue Design — Lynien Lin</title>
+    <meta
+      name="description"
+      content="Co-creating conversational strategies for a student mental well-being chatbot, validated with 10 student co-designers into 11 design guidelines."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="masthead">
+      <div class="wrap masthead-inner">
+        <a class="brand" href="index.html"
+          >Lynien Lin <span>— a working journal</span></a
+        >
+        <div class="controls">
+          <a class="chip" href="index.html#top" style="text-decoration: none"
+            >All entries</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="cs-cover">
+        <div class="wrap">
+          <a class="cs-back" href="index.html#top">← Back to the journal</a>
+          <p class="cat">UX Design · Master's Thesis</p>
+          <h1>Co-creating chatbot dialogue for student mental well-being</h1>
+          <p class="cs-lede">
+            Researching what university students actually want from a mental
+            well-being chatbot — then turning their words into design guidelines
+            a team could build from.
+          </p>
+
+          <div class="cs-meta">
+            <div>
+              <b>Framework</b
+              ><span>Interpersonal Communication Competence (ICC)</span>
+            </div>
+            <div><b>Method</b><span>Participatory co-creation</span></div>
+            <div><b>Analysis</b><span>ATLAS.ti, thematic analysis</span></div>
+            <div><b>Participants</b><span>10 Master's students</span></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="wrap cs-body">
+        <nav class="cs-nav" aria-label="Case study sections">
+          <span class="util">On this page</span>
+          <ol>
+            <li><a href="#description">Project description</a></li>
+            <li><a href="#goals">Define the goals</a></li>
+            <li><a href="#process">Design &amp; research process</a></li>
+            <li><a href="#insights">Key insights</a></li>
+            <li><a href="#result">Result: design guidelines</a></li>
+          </ol>
+        </nav>
+
+        <div>
+          <section class="cs-section" id="description">
+            <h2>Project description</h2>
+            <p>
+              "Co-creating Chatbot Dialogue for Supporting University Students'
+              Mental Well-being" is my thesis research project — researching
+              university students' needs from a chatbot designed for mental
+              well-being support, and gathering their input on preferred
+              conversational tendencies.
+            </p>
+            <p>
+              <b>Target audience:</b> university students facing stressors like
+              academics and purpose, who hesitate to seek help due to stigma or
+              access barriers.
+            </p>
+            <p>
+              <b>The outcome:</b> a set of 11 user-validated conversational
+              strategies and design guidelines for mental well-being chatbots
+              targeting student users.
+            </p>
+          </section>
+
+          <section class="cs-section" id="goals">
+            <h2>Define the goals</h2>
+            <p>
+              <b>Objective:</b> investigate which conversational strategies
+              university students prefer in a chatbot, to encourage them to
+              disclose their mental well-being concerns.
+            </p>
+            <p>
+              <b>Framework:</b> the project aimed to link design strategies to
+              Interpersonal Communication Competence (ICC) theory — skills like
+              empathy, interaction management, and altercentrism.
+            </p>
+          </section>
+
+          <section class="cs-section" id="process">
+            <h2>Design &amp; research process</h2>
+
+            <figure class="phases">
+              <span class="rx-label">Three phases, ten co-designers</span>
+              <ol class="phases-steps">
+                <li>
+                  <span class="n">01</span>
+                  <div>
+                    <b>Scenario &amp; baseline</b>
+                    <span
+                      >Identified chronic irregular sleep as a primary student
+                      concern, wrote a user scenario ("Ash"), and used GPT-4 to
+                      generate a Baseline Dialogue for participants to react
+                      against.</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <span class="n">02</span>
+                  <div>
+                    <b>Evaluate the baseline</b>
+                    <span
+                      >Ten Master's-level students read the GPT-4 dialogue first
+                      and said what did and did not work — before being asked to
+                      improve anything.</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <span class="n">03</span>
+                  <div>
+                    <b>Brainstorm</b>
+                    <span
+                      >The "Pressure Cooker" method with sticky notes, to get
+                      quantity of ideas out before judging any of them.</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <span class="n">04</span>
+                  <div>
+                    <b>Co-create</b>
+                    <span
+                      >Participants rewrote the dialogues themselves, on a
+                      platform I built for the purpose, aiming to make a student
+                      more willing to disclose.</span
+                    >
+                  </div>
+                </li>
+                <li>
+                  <span class="n">05</span>
+                  <div>
+                    <b>Thematic analysis</b>
+                    <span
+                      >Transcribed every session and used ATLAS.ti for a hybrid
+                      deductive/inductive analysis, mapping what participants
+                      did back onto the ICC framework.</span
+                    >
+                  </div>
+                </li>
+              </ol>
+              <figcaption>
+                The order matters: participants judged an existing dialogue
+                before writing their own. Asking someone to design from scratch
+                gets you their imagination — asking them to fix something gets
+                you their actual preferences.
+              </figcaption>
+            </figure>
+
+            <!-- MEDIA: drop files into assets/chatbot-dialogue/ -->
+            <div class="media-row cols-2">
+              <div class="media">
+                <figure>
+                  <img
+                    src="assets/chatbot-dialogue/workshop.jpg"
+                    alt="Sticky notes from the Pressure Cooker brainstorming session"
+                  />
+                  <div class="media-placeholder">Workshop brainstorm</div>
+                  <figcaption>
+                    The "Pressure Cooker" session — rapid ideas on sticky notes.
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="media">
+                <figure>
+                  <img
+                    src="assets/chatbot-dialogue/platform.jpg"
+                    alt="The co-creation platform participants used to redesign dialogues"
+                  />
+                  <div class="media-placeholder">Co-creation platform</div>
+                  <figcaption>
+                    The platform I built for participants to rewrite the
+                    dialogue.
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <section class="cs-section" id="insights">
+            <h2>Key insights &amp; findings</h2>
+            <ul class="cs-findings">
+              <li>
+                <b>Functionality over pure empathy</b> — despite applying social
+                norms to chatbots, users fundamentally view them as machine
+                tools. Chatbots must balance emotional support with practical,
+                functional value.
+              </li>
+              <li>
+                <b>Structure matters as much as content</b> — chatbots must use
+                proper conversational structure to avoid cognitive overload.
+              </li>
+              <li>
+                <b>Tone &amp; assumptions</b> — chatbots should avoid assuming
+                users' inputs, and should adopt a casual, approachable tone.
+              </li>
+            </ul>
+            <blockquote class="cs-quote">
+              Many users mentioned the word "gently" — and the use of "—" makes
+              the whole speech robotic and seems insincere.
+              <cite>Observation from a bad dialogue example</cite>
+            </blockquote>
+          </section>
+
+          <section class="cs-section" id="result">
+            <h2>Result: design guidelines</h2>
+            <p>
+              <b>The persona shift:</b> mental well-being chatbots should be
+              designed to act as a "knowledgeable, competent friend" rather than
+              a stiff medical professional.
+            </p>
+
+            <!-- MEDIA: a before/after of the dialogue itself -->
+            <div class="media">
+              <figure>
+                <img
+                  src="assets/chatbot-dialogue/dialogue-example.jpg"
+                  alt="A dialogue redesigned by participants next to the GPT-4 baseline"
+                />
+                <div class="media-placeholder">
+                  Dialogue: baseline vs. participant rewrite
+                </div>
+                <figcaption>
+                  A participant's rewrite next to the GPT-4 baseline dialogue.
+                </figcaption>
+              </figure>
+            </div>
+            <div class="media">
+              <figure>
+                <img
+                  src="assets/chatbot-dialogue/dialogue-example2.jpg"
+                  alt="A full dialogue example redesigned by participants"
+                />
+                <div class="media-placeholder">Full Example</div>
+                <figcaption>
+                  A participant's rewrite next to the GPT-4 baseline dialogue.
+                </figcaption>
+              </figure>
+            </div>
+            <h3>Design principle</h3>
+            <p>
+              Open with empathy, then move on. Validate the user's feelings once
+              at the start, then progress toward understanding or solutions —
+              repeating affirmations feels robotic and stalls the conversation.
+              One bubble, one idea: long paragraphs trigger cognitive overload.
+              Ask, don't assume: use open-ended questions instead of preset
+              options.
+            </p>
+
+            <h3>11 conversational strategies</h3>
+            <div class="cs-table">
+              <div class="h">Strategy</div>
+              <div class="h">What it means</div>
+
+              <div class="c">Use empathic expressions</div>
+              <div class="c">Recognize or validate the user's feelings.</div>
+
+              <div class="c">Utilize conversation structure</div>
+              <div class="c">
+                Sentence/paragraph formulation, chat bubble presentation, how
+                the conversation begins, continues, and ends.
+              </div>
+
+              <div class="c">Provide actionable solutions</div>
+              <div class="c">
+                Offer possible approaches for users to address their concerns.
+              </div>
+
+              <div class="c">Assume/explain user's inputs</div>
+              <div class="c">
+                Making assumptions, describing feelings, or giving explanations
+                to user inputs — used carefully.
+              </div>
+
+              <div class="c">Orient to individual users</div>
+              <div class="c">
+                Adapt the conversation to the user's preference and specific
+                needs.
+              </div>
+
+              <div class="c">Adopt a certain speaking style</div>
+              <div class="c">
+                Register, degree of formality, and the associative character of
+                speech.
+              </div>
+
+              <div class="c">Change user's perspective</div>
+              <div class="c">
+                Offer "another point of view," or normalize the user's problem.
+              </div>
+
+              <div class="c">Use proper formulation of questions</div>
+              <div class="c">Specific, careful ways of phrasing questions.</div>
+
+              <div class="c">Leverage the chatbot's nature</div>
+              <div class="c">Use characteristics such as being neutral.</div>
+
+              <div class="c">Build trust</div>
+              <div class="c">Emphasize building rapport over time.</div>
+
+              <div class="c">Use emoji</div>
+              <div class="c">
+                Elevate the conversation's tone where appropriate.
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <section class="cs-close">
+        <div class="wrap">
+          <p>Next in the journal —</p>
+          <div class="cs-close-links">
+            <a href="case-study-memory-spice.html">Memory Spice →</a>
+            <a href="index.html#top">Back to all entries</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap footer-inner util">
+        <span>Lynien Lin · Tilburg, NL</span>
+        <span>Kept by hand, updated when something changes</span>
+      </div>
+    </footer>
+
+    <script src="journal.js" defer></script>
+  </body>
+</html>
